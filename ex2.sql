@@ -1,0 +1,10 @@
+
+--insertion autres valeurs
+
+INSERT INTO T_PERSONNE_PRS VALUES ('MARTIN', 'PARIS', 3);
+INSERT INTO T_PERSONNE_PRS VALUES ('DUPOND', 'STRASBOURG', 2); 
+INSERT INTO T_PERSONNE_PRS VALUES ('MARTIN', 'PARIS', 3);
+INSERT INTO T_PERSONNE_PRS VALUES ('DUPOND', 'STRASBOURG', 2); 
+INSERT INTO T_PERSONNE_PRS VALUES ('MARTIN', 'PARIS', 3);
+
+select prs_nom, prs_ville from t_personne_prs order by prs_nombre desc ;
